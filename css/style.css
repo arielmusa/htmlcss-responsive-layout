@@ -137,6 +137,21 @@ main {
   text-align: center;
   box-shadow: 0px 1px 10px lightgray;
 }
+.fa-facebook {
+  color: #1a77f3;
+}
+.fa-twitter {
+  color: #019eff;
+}
+.fa-instagram {
+  color: #dd427b;
+}
+.fa-pinterest {
+  color: #e62322;
+}
+.fa-youtube {
+  color: #e62322;
+}
 #content-body {
   padding-bottom: 20px;
 }
@@ -256,6 +271,10 @@ footer .row {
     padding-left: 5px;
     text-transform: uppercase;
     font-weight: bold;
+  }
+  .social li {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   footer {
     padding: 10px;
