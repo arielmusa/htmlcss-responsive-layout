@@ -133,6 +133,9 @@ main {
   border-radius: 20px;
   font-size: 12px;
 }
+#content-body {
+  padding-bottom: 20px;
+}
 
 #content-body .content-body-heading {
   display: block;
@@ -150,4 +153,39 @@ main {
 #content-body p {
   font-size: 15px;
   line-height: 28px;
+}
+/************************ FOOTER *************************/
+footer {
+  background-color: #7c69a4;
+  color: white;
+  padding: 20px;
+}
+footer .row {
+  justify-content: center;
+}
+
+.footer-info {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.footer-info p {
+  padding: 5px 0px;
+}
+.footer-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-menu li {
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer-menu a {
+  color: white;
+  text-decoration: underline;
 }
