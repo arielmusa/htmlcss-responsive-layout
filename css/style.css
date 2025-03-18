@@ -6,25 +6,33 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+  background-color: #f6f5f3;
 }
 
 ul li {
   list-style-type: none;
-  color: white;
-  display: inline-block;
-  font-size: 10px;
-  font-weight: bold;
-  padding-right: 5px;
 }
 
 a {
   text-decoration: none;
-  color: white;
 }
 img {
   max-width: 100%;
   display: block;
+}
+
+h1.title {
+  color: #4e3969;
+  padding-bottom: 15px;
+}
+
+h2.content-category {
+  color: gray;
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
 }
 
 /*************** UTILS ***************/
@@ -38,7 +46,6 @@ img {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0px -0.5rem;
 }
 
 [class*="col"] {
@@ -61,4 +68,60 @@ img {
 
 .display-none {
   display: none;
+}
+
+/************************ HEADER *************************/
+
+header {
+  background-color: white;
+}
+
+header .page-heading {
+  display: block;
+  font-family: "Nerko One", cursive;
+  font-size: 40px;
+  color: #ff9613;
+  text-align: center;
+  padding: 10px;
+}
+
+/************************ MAIN *************************/
+main {
+  padding: 20px 10px;
+}
+
+#content-head .card .card-description {
+  padding: 25px;
+  background-color: white;
+  border-radius: 0px 0px 3px 3px;
+  box-shadow: 0px 1px 10px lightgray;
+}
+
+.card-description-heading {
+  display: block;
+  color: #4e3969;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.card-description-summary li {
+  padding: 8px 0px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.social li {
+  display: inline-block;
+  background-color: white;
+  padding: 7px 12px;
+  border-radius: 20px;
+  font-size: 12px;
 }
