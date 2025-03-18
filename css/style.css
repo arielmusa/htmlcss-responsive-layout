@@ -46,7 +46,7 @@ hr {
 /*************** UTILS ***************/
 
 .container {
-  max-width: 1100px;
+  max-width: 1180px;
   margin: auto;
   padding: 0px 0.5rem;
 }
@@ -97,7 +97,9 @@ header .page-heading {
 main {
   padding: 20px 10px;
 }
-
+#content-head .card-media img {
+  width: 100%;
+}
 #content-head .card .card-description {
   padding: 25px;
   background-color: white;
@@ -132,6 +134,7 @@ main {
   padding: 7px 12px;
   border-radius: 20px;
   font-size: 12px;
+  box-shadow: 0px 1px 10px lightgray;
 }
 #content-body {
   padding-bottom: 20px;
@@ -188,4 +191,47 @@ footer .row {
 .footer-menu a {
   color: white;
   text-decoration: underline;
+}
+
+/************************ RESPONSIVE STYLE *************************/
+@media screen and (min-width: 768px) {
+  header .page-heading {
+    text-align: left;
+  }
+  main {
+    padding: 30px 20px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .title span {
+    display: inline-block;
+  }
+  .card-description-summary li {
+    min-width: 30%;
+    display: inline-block;
+    padding-right: 10px;
+  }
+  .social {
+    gap: 12px;
+  }
+  .social li {
+    width: 100%;
+    text-align: center;
+  }
+  #adv {
+    display: block;
+    padding-bottom: 20px;
+  }
+  #content-body img {
+    float: left;
+    width: 40%;
+    padding-bottom: 0;
+    padding-right: 10px;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
