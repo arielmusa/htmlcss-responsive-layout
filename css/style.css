@@ -97,6 +97,12 @@ header .page-heading {
 main {
   padding: 20px 10px;
 }
+
+.card-media,
+.card-description {
+  width: 100%;
+}
+
 #content-head .card-media img {
   width: 100%;
 }
